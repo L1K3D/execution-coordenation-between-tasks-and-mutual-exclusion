@@ -42,7 +42,7 @@ void enable_interrupts()
 
 /**
  * Function executed by each thread.
- */
+    */
 void *deposit(void *arg)
 {
     for (int i = 0; i < ITERATIONS; i++)
